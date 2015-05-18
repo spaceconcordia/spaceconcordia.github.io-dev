@@ -18,7 +18,19 @@ module.exports = function(grunt) {
                 } ]
             }
         },
+        watch: {
+          script: {
+            files: ['**/*.*'],
+            tasks:  ['jade'],
+            options: {
+              spawn: false
+            }
+            
+          }
+        }
     });
 
     grunt.loadNpmTasks("grunt-contrib-jade");
+    grunt.loadNpmTasks('grunt-contrib-watch');
 };
+
