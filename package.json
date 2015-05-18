@@ -1,0 +1,22 @@
+{
+  "name": "spaceconcordia.github.io",
+  "version": "0.0.0",
+  "description": "Space Concordia Website",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spaceconcordia/spaceconcordia.github.io.git"
+  },
+  "author": "Space Concordia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spaceconcordia/spaceconcordia.github.io/issues"
+  },
+  "homepage": "https://github.com/spaceconcordia/spaceconcordia.github.io",
+  "devDependencies": {
+    "grunt-contrib-jade": "^0.14.1"
+  }
+}
